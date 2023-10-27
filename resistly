@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Exchange Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-vfaz5EdKSPDt+Ga2ILg1fxoS0GExZjF4gVpIv6C/Ooqu5vyF3tIfjHpF9ldOeMIE" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark text-white">
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">欢迎使用交易平台</h1>
+        <p class="text-center mb-4">... Some other text here ...</p>
+        <p class="text-center mb-4">For more info: <a href="linktree.cn/meta588" class="text-info">linktree.cn/meta588</a></p>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="mb-3">
+                    <label class="form-label">usd汇率</label>
+                    <select class="form-select">
+                        <option selected>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <label class="form-label">btc</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <label class="form-label">15分钟</label>
+                    <select class="form-select">
+                        <option selected>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-success w-100 mb-4">查询</button>
+
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>标题</th>
+                    <th>数据1</th>
+                    <th>数据2</th>
+                    <th>数据3</th>
+                    <th>数据4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ETH/比</td>
+                    <td>33700.98</td>
+                    <td>33902.89</td>
+                    <td>34072.98</td>
+                    <td>34239.23</td>
+                </tr>
+                <tr>
+                    <td>某某比</td>
+                    <td>33386.42</td>
+                    <td>33035.88</td>
+                    <td>32830.15</td>
+                    <td>32638.38</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-DlTyFXYlwADu3RQ0se7RiCtYmH2hTR7/XvFlQzXXViuhd3bdkIbj8Q8q42mYzBhZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
